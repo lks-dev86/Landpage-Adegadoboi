@@ -1,0 +1,44 @@
+ADEGA DO BOI — FOTOS DO SITE
+=============================
+
+Todas as imagens desta pasta são PROVISÓRIAS (fundo vinho com o nome do arquivo).
+Para trocar: salve a foto nova com EXATAMENTE o mesmo nome e substitua o arquivo.
+Não precisa mexer no código. Se o assunto da foto mudar, ajuste também o texto
+"alt" da imagem no index.html (é a descrição lida por quem usa leitor de tela).
+
+Dicas gerais
+- Formato .jpg, qualidade 75–80%. Tente manter cada foto abaixo de 250 KB
+  (hero abaixo de 200 KB). Sites como squoosh.app comprimem sem perder qualidade.
+- Luz quente, fundo escuro, carne em primeiro plano. Evite flash direto.
+- Sem pessoas identificáveis sem autorização por escrito (LGPD / direito de imagem).
+- Fotografe na horizontal, exceto o hero (vertical).
+- Deixe o assunto principal no centro: o site recorta as bordas em telas diferentes.
+
+ARQUIVO                  TAMANHO       PROPORÇÃO   O QUE FOTOGRAFAR
+-----------------------  ------------  ----------  ---------------------------------------------
+hero.jpg                 1200 × 1500   4:5 vert.   Espeto de picanha sendo servido na mesa
+                                                   (a foto principal; assunto no terço de cima,
+                                                   no celular ela aparece quadrada)
+destaque-rodizio.jpg     960 × 720     4:3         Cortes de carne no espeto
+destaque-buffet.jpg      960 × 720     4:3         Buffet de saladas e pratos quentes
+destaque-familia.jpg     960 × 720     4:3         Família reunida à mesa
+destaque-bebidas.jpg     960 × 720     4:3         Chopp e caipirissima na mesa
+galeria-1.jpg            1200 × 900    4:3         Salão principal visto da entrada (aparece grande)
+galeria-2.jpg            1200 × 900    4:3         Mesa posta para família
+galeria-3.jpg            1200 × 900    4:3         Passador servindo carne na mesa
+galeria-4.jpg            1200 × 900    4:3         Buffet de saladas
+galeria-5.jpg            1200 × 900    4:3         Chopp sendo tirado no balcão
+galeria-6.jpg            1200 × 900    4:3         Fachada na Av. Jóquei Clube (de dia)
+og-image.jpg             1200 × 630    1,91:1      Imagem que aparece quando o link é compartilhado
+                                                   no WhatsApp/Facebook. Ideal: foto do rodízio com
+                                                   o logo. Mantenha textos longe das bordas.
+
+LOGO E ÍCONES
+logo-placeholder.svg     419 × 81      —           Logo PROVISÓRIO. Troque pelo logo oficial em SVG
+                                                   (ou PNG transparente, ajustando o src no index.html).
+favicon.svg              —             1:1         Ícone da aba do navegador (cabeça de boi provisória).
+apple-touch-icon.png     180 × 180     1:1         Ícone ao salvar o site na tela do iPhone.
+
+Origem dos arquivos provisórios: gerados para este projeto a partir de HTML/CSS
+(gradiente + rótulo) e do emblema desenhado à mão em SVG. Nenhuma imagem foi
+copiada do Instagram ou do Google.

@@ -1,0 +1,5 @@
+# CONFIRMAR: trocar o domínio abaixo pelo endereço final do site
+User-agent: *
+Allow: /
+
+Sitemap: https://www.adegadoboi.com.br/sitemap.xml

@@ -1,0 +1,564 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T23:07:33.806Z",
+  "title": "Design System: Adega do Boi",
+  "extensions": {
+    "colorMeta": {
+      "vinho": {
+        "role": "primary",
+        "displayName": "Vinho de Parede",
+        "canonical": "#8B1030",
+        "tonalRamp": [
+          "oklch(15% 0.08 14.4)",
+          "oklch(26% 0.124 14.4)",
+          "oklch(37% 0.154 14.4)",
+          "oklch(48% 0.154 14.4)",
+          "oklch(60% 0.154 14.4)",
+          "oklch(71% 0.136 14.4)",
+          "oklch(83% 0.088 14.4)",
+          "oklch(95% 0.04 14.4)"
+        ]
+      },
+      "vinho-escuro": {
+        "role": "primary",
+        "displayName": "Vinho Escuro",
+        "canonical": "#5E0B20",
+        "tonalRamp": [
+          "oklch(15% 0.08 13.5)",
+          "oklch(26% 0.114 13.5)",
+          "oklch(37% 0.114 13.5)",
+          "oklch(48% 0.114 13.5)",
+          "oklch(60% 0.114 13.5)",
+          "oklch(71% 0.114 13.5)",
+          "oklch(83% 0.088 13.5)",
+          "oklch(95% 0.04 13.5)"
+        ]
+      },
+      "noite": {
+        "role": "primary",
+        "displayName": "Noite",
+        "canonical": "#3A0614",
+        "tonalRamp": [
+          "oklch(15% 0.08 10.6)",
+          "oklch(26% 0.08 10.6)",
+          "oklch(37% 0.08 10.6)",
+          "oklch(48% 0.08 10.6)",
+          "oklch(60% 0.08 10.6)",
+          "oklch(71% 0.08 10.6)",
+          "oklch(83% 0.08 10.6)",
+          "oklch(95% 0.04 10.6)"
+        ]
+      },
+      "parede": {
+        "role": "neutral",
+        "displayName": "Parede de Cal",
+        "canonical": "#F5E7CF",
+        "tonalRamp": [
+          "oklch(15% 0.035 81.3)",
+          "oklch(26% 0.035 81.3)",
+          "oklch(37% 0.035 81.3)",
+          "oklch(48% 0.035 81.3)",
+          "oklch(60% 0.035 81.3)",
+          "oklch(71% 0.035 81.3)",
+          "oklch(83% 0.035 81.3)",
+          "oklch(95% 0.035 81.3)"
+        ]
+      },
+      "parede-2": {
+        "role": "neutral",
+        "displayName": "Parede de Cal 2",
+        "canonical": "#F0DFC4",
+        "tonalRamp": [
+          "oklch(15% 0.04 79.5)",
+          "oklch(26% 0.04 79.5)",
+          "oklch(37% 0.04 79.5)",
+          "oklch(48% 0.04 79.5)",
+          "oklch(60% 0.04 79.5)",
+          "oklch(71% 0.04 79.5)",
+          "oklch(83% 0.04 79.5)",
+          "oklch(95% 0.04 79.5)"
+        ]
+      },
+      "parede-3": {
+        "role": "neutral",
+        "displayName": "Parede de Cal 3",
+        "canonical": "#E9D3B4",
+        "tonalRamp": [
+          "oklch(15% 0.048 76.4)",
+          "oklch(26% 0.048 76.4)",
+          "oklch(37% 0.048 76.4)",
+          "oklch(48% 0.048 76.4)",
+          "oklch(60% 0.048 76.4)",
+          "oklch(71% 0.048 76.4)",
+          "oklch(83% 0.048 76.4)",
+          "oklch(95% 0.04 76.4)"
+        ]
+      },
+      "creme": {
+        "role": "neutral",
+        "displayName": "Creme de Placa",
+        "canonical": "#FFF9EE",
+        "tonalRamp": [
+          "oklch(15% 0.016 82.8)",
+          "oklch(26% 0.016 82.8)",
+          "oklch(37% 0.016 82.8)",
+          "oklch(48% 0.016 82.8)",
+          "oklch(60% 0.016 82.8)",
+          "oklch(71% 0.016 82.8)",
+          "oklch(83% 0.016 82.8)",
+          "oklch(95% 0.016 82.8)"
+        ]
+      },
+      "creme-2": {
+        "role": "neutral",
+        "displayName": "Creme 2",
+        "canonical": "#F5E7CF",
+        "tonalRamp": [
+          "oklch(15% 0.035 81.3)",
+          "oklch(26% 0.035 81.3)",
+          "oklch(37% 0.035 81.3)",
+          "oklch(48% 0.035 81.3)",
+          "oklch(60% 0.035 81.3)",
+          "oklch(71% 0.035 81.3)",
+          "oklch(83% 0.035 81.3)",
+          "oklch(95% 0.035 81.3)"
+        ]
+      },
+      "creme-suave": {
+        "role": "neutral",
+        "displayName": "Creme Suave",
+        "canonical": "#F3D2B8",
+        "tonalRamp": [
+          "oklch(15% 0.051 60.3)",
+          "oklch(26% 0.051 60.3)",
+          "oklch(37% 0.051 60.3)",
+          "oklch(48% 0.051 60.3)",
+          "oklch(60% 0.051 60.3)",
+          "oklch(71% 0.051 60.3)",
+          "oklch(83% 0.051 60.3)",
+          "oklch(95% 0.04 60.3)"
+        ]
+      },
+      "tinta-2": {
+        "role": "neutral",
+        "displayName": "Tinta 2",
+        "canonical": "#7A2A38",
+        "tonalRamp": [
+          "oklch(15% 0.08 13.1)",
+          "oklch(26% 0.112 13.1)",
+          "oklch(37% 0.112 13.1)",
+          "oklch(48% 0.112 13.1)",
+          "oklch(60% 0.112 13.1)",
+          "oklch(71% 0.112 13.1)",
+          "oklch(83% 0.088 13.1)",
+          "oklch(95% 0.04 13.1)"
+        ]
+      },
+      "laranja": {
+        "role": "secondary",
+        "displayName": "Laranja de Ação",
+        "canonical": "#F28A2E",
+        "tonalRamp": [
+          "oklch(15% 0.08 56.7)",
+          "oklch(26% 0.124 56.7)",
+          "oklch(37% 0.16 56.7)",
+          "oklch(48% 0.16 56.7)",
+          "oklch(60% 0.16 56.7)",
+          "oklch(71% 0.136 56.7)",
+          "oklch(83% 0.088 56.7)",
+          "oklch(95% 0.04 56.7)"
+        ]
+      },
+      "laranja-tinta": {
+        "role": "secondary",
+        "displayName": "Laranja Tinta",
+        "canonical": "#9A400C",
+        "tonalRamp": [
+          "oklch(15% 0.08 44.5)",
+          "oklch(26% 0.124 44.5)",
+          "oklch(37% 0.134 44.5)",
+          "oklch(48% 0.134 44.5)",
+          "oklch(60% 0.134 44.5)",
+          "oklch(71% 0.134 44.5)",
+          "oklch(83% 0.088 44.5)",
+          "oklch(95% 0.04 44.5)"
+        ]
+      },
+      "ambar": {
+        "role": "tertiary",
+        "displayName": "Âmbar de Pincel",
+        "canonical": "#FDBA6B",
+        "tonalRamp": [
+          "oklch(15% 0.08 69.3)",
+          "oklch(26% 0.123 69.3)",
+          "oklch(37% 0.123 69.3)",
+          "oklch(48% 0.123 69.3)",
+          "oklch(60% 0.123 69.3)",
+          "oklch(71% 0.123 69.3)",
+          "oklch(83% 0.088 69.3)",
+          "oklch(95% 0.04 69.3)"
+        ]
+      },
+      "verde-aberto": {
+        "role": "tertiary",
+        "displayName": "Verde Aberto",
+        "canonical": "#7BDB95",
+        "tonalRamp": [
+          "oklch(15% 0.08 151.2)",
+          "oklch(26% 0.124 151.2)",
+          "oklch(37% 0.135 151.2)",
+          "oklch(48% 0.135 151.2)",
+          "oklch(60% 0.135 151.2)",
+          "oklch(71% 0.135 151.2)",
+          "oklch(83% 0.088 151.2)",
+          "oklch(95% 0.04 151.2)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Letreiro",
+        "purpose": "Hero headline only; vinho slab caps with a laranja letra sombreada."
+      },
+      "headline": {
+        "displayName": "Título de Seção",
+        "purpose": "Section titles everywhere, on cal and inside a placa alike: vinho with a laranja shade."
+      },
+      "title": {
+        "displayName": "Título de Placa",
+        "purpose": "Board, dish, feature, day-name and review-theme titles."
+      },
+      "brush": {
+        "displayName": "Palavra de Pincel",
+        "purpose": "One rotated brush word inside a slab line, laranja-tinta and unshaded; max three per page."
+      },
+      "price": {
+        "displayName": "Preço Pintado",
+        "purpose": "Big integer of painted prices, with small ambar R$ and raised underlined cents."
+      },
+      "body": {
+        "displayName": "Texto",
+        "purpose": "Running text in noite on cal; tinta-2 inside cards."
+      },
+      "lead": {
+        "displayName": "Subtítulo",
+        "purpose": "Subtitles and leads in tinta-2 on cal, creme-suave inside vinho objects."
+      },
+      "label": {
+        "displayName": "Rótulo",
+        "purpose": "Tags, meal names, table heads, group headings; always names the data it sits on, never a kicker."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sombra-placa",
+        "value": "0 10px 18px -14px rgba(84, 42, 24, 0.45)",
+        "purpose": "Placas and the infantil board; sepia, short, negative spread."
+      },
+      {
+        "name": "sombra-placa-2",
+        "value": "0 8px 14px -12px rgba(84, 42, 24, 0.38)",
+        "purpose": "The lighter lift: feature cards and the hero HOJE chip."
+      },
+      {
+        "name": "price-card-hang",
+        "value": "0 12px 20px -14px rgba(84, 42, 24, 0.55)",
+        "purpose": "Price cards hang a little deeper than placas."
+      },
+      {
+        "name": "dish-hang",
+        "value": "0 10px 18px -13px rgba(84, 42, 24, 0.6)",
+        "purpose": "Dish cards."
+      },
+      {
+        "name": "frame-hang",
+        "value": "0 14px 22px -16px rgba(84, 42, 24, 0.6)",
+        "purpose": "Hero photo mat."
+      },
+      {
+        "name": "button-lift",
+        "value": "0 6px 12px -9px rgba(84, 42, 24, 0.5), inset 0 -2px 0 rgba(154, 64, 12, 0.32)",
+        "purpose": "Primary button only; the inset is a laranja-tinta lower lip."
+      },
+      {
+        "name": "chrome-filete",
+        "value": "inset 0 -1.5px 0 var(--laranja)",
+        "purpose": "The header’s filete, carried as an inset so the rail closes without changing the header’s height."
+      },
+      {
+        "name": "header-scrolled",
+        "value": "inset 0 -1.5px 0 var(--laranja), 0 14px 26px -18px rgba(42, 4, 14, 0.8)",
+        "purpose": "The filete stays and a deep wine shadow is added once the status strip scrolls away."
+      },
+      {
+        "name": "menu-drop",
+        "value": "0 14px 18px -14px rgba(42, 4, 14, 0.7)",
+        "purpose": "The mobile menu board hanging below the header rail."
+      },
+      {
+        "name": "filete-interno",
+        "value": "inset 0 0 0 1px rgba(253, 186, 107, 0.38)",
+        "purpose": "Amber hairline 5-6px inside framed vinho objects."
+      },
+      {
+        "name": "letra-sombreada-cal",
+        "value": "text-shadow: 0.055em 0.055em 0 #F28A2E",
+        "purpose": "Painted shade under vinho slab caps on cal; slab letters only, never boxes."
+      },
+      {
+        "name": "letra-sombreada-vinho",
+        "value": "text-shadow: 0.05em 0.05em 0 #3A0614",
+        "purpose": "Painted shade under creme slab caps and price integers inside vinho objects."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "All entrances, presses and state moves."
+      },
+      {
+        "name": "press",
+        "value": "scale(0.97), 140ms ease-out",
+        "purpose": "Buttons and the Hoje chip (dock 0.96, menu toggle 0.94)."
+      },
+      {
+        "name": "brush-paint",
+        "value": "clip-path inset left-to-right, 900ms, 280ms delay",
+        "purpose": "The single authored moment: the hero brush word paints in."
+      },
+      {
+        "name": "reveal-rise",
+        "value": "opacity 650ms + translateY(18px) 750ms, 60ms sibling stagger (max 6)",
+        "purpose": "Headings and board groups; applied only when js-motion is present."
+      },
+      {
+        "name": "reveal-clip",
+        "value": "clip-path from bottom 900ms, image scale 1.08 to 1 over 1200ms, 70ms stagger",
+        "purpose": "Gallery tiles."
+      },
+      {
+        "name": "status-step",
+        "value": "translateY(100%) to 0 with fade, 420ms",
+        "purpose": "Status strip steps a whole line on state change."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "opacity only",
+        "purpose": "No reveals, no press or slide transforms."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "339",
+        "value": "339px",
+        "direction": "max-width",
+        "purpose": "Narrow step: gutter 16px to 12px, and .hours td gains white-space:normal so the hours wrap instead of pushing the board."
+      },
+      {
+        "name": "479",
+        "value": "479px",
+        "direction": "max-width",
+        "purpose": "Narrow step: boards tighten their own padding and cell spacing (price card, infantil, placa/board, price rows, hours cells) and the hours figures drop to 0.88rem. The price integer keeps its clamp."
+      },
+      {
+        "name": "600",
+        "value": "600px",
+        "direction": "min-width"
+      },
+      {
+        "name": "640",
+        "value": "640px",
+        "direction": "min-width"
+      },
+      {
+        "name": "720",
+        "value": "720px",
+        "direction": "min-width"
+      },
+      {
+        "name": "760",
+        "value": "760px",
+        "direction": "min-width"
+      },
+      {
+        "name": "860",
+        "value": "860px",
+        "direction": "min-width"
+      },
+      {
+        "name": "900",
+        "value": "900px",
+        "direction": "min-width"
+      },
+      {
+        "name": "960",
+        "value": "960px",
+        "direction": "min-width"
+      },
+      {
+        "name": "1100",
+        "value": "1100px",
+        "direction": "min-width"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one lit orange action (Reservar mesa), on the cal wall.",
+      "html": "<div class=\"ds-wall\"><a class=\"ds-btn ds-btn-primary\" href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M16 3v4M8 3v4M3 11h18\"/></svg>Reservar mesa</a></div>",
+      "css": ":host{--vinho:#8B1030;--vinho-escuro:#5E0B20;--noite:#3A0614;--parede:#F5E7CF;--parede-2:#F0DFC4;--parede-3:#E9D3B4;--creme:#FFF9EE;--creme-2:#F5E7CF;--creme-suave:#F3D2B8;--tinta-2:#7A2A38;--laranja:#F28A2E;--laranja-tinta:#9A400C;--ambar:#FDBA6B;--verde-aberto:#7BDB95;--filete-cor:var(--laranja-tinta);--filete:1.5px solid var(--filete-cor);--filete-interno:rgba(253,186,107,0.38);--sombra-placa:0 10px 18px -14px rgba(84,42,24,0.45);--sombra-placa-2:0 8px 14px -12px rgba(84,42,24,0.38);--f-display:\"Alfa Slab One\",Rockwell,Georgia,serif;--f-brush:\"Kaushan Script\",\"Brush Script MT\",cursive;--f-body:Nunito,system-ui,sans-serif;--ease-out:cubic-bezier(0.23,1,0.32,1);--focus:var(--vinho);} .ds-wall{background:var(--parede);color:var(--noite);padding:24px;font-family:var(--f-body);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:48px;padding:.7em 1.25em;border:1.5px solid transparent;border-radius:14px;font-family:var(--f-body);font-weight:800;font-size:1rem;line-height:1.1;text-decoration:none;cursor:pointer;transition:transform 140ms var(--ease-out),background-color 180ms ease,border-color 180ms ease;} .ds-btn:active{transform:scale(.97);} .ds-btn:focus-visible{outline:3px solid var(--focus);outline-offset:3px;} .ds-btn-primary{background:var(--laranja);color:var(--noite);border-color:var(--laranja-tinta);box-shadow:0 6px 12px -9px rgba(84,42,24,.5),inset 0 -2px 0 rgba(154,64,12,.32);} .ds-btn-primary:hover{background:#FF9B45;}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "The secondary action beside the primary: vinho ink on cal.",
+      "html": "<div class=\"ds-wall\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\">Ver valores</a></div>",
+      "css": ":host{--vinho:#8B1030;--vinho-escuro:#5E0B20;--noite:#3A0614;--parede:#F5E7CF;--parede-2:#F0DFC4;--parede-3:#E9D3B4;--creme:#FFF9EE;--creme-2:#F5E7CF;--creme-suave:#F3D2B8;--tinta-2:#7A2A38;--laranja:#F28A2E;--laranja-tinta:#9A400C;--ambar:#FDBA6B;--verde-aberto:#7BDB95;--filete-cor:var(--laranja-tinta);--filete:1.5px solid var(--filete-cor);--filete-interno:rgba(253,186,107,0.38);--sombra-placa:0 10px 18px -14px rgba(84,42,24,0.45);--sombra-placa-2:0 8px 14px -12px rgba(84,42,24,0.38);--f-display:\"Alfa Slab One\",Rockwell,Georgia,serif;--f-brush:\"Kaushan Script\",\"Brush Script MT\",cursive;--f-body:Nunito,system-ui,sans-serif;--ease-out:cubic-bezier(0.23,1,0.32,1);--focus:var(--vinho);} .ds-wall{background:var(--parede);color:var(--noite);padding:24px;font-family:var(--f-body);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:48px;padding:.7em 1.25em;border:1.5px solid transparent;border-radius:14px;font-family:var(--f-body);font-weight:800;font-size:1rem;line-height:1.1;text-decoration:none;cursor:pointer;transition:transform 140ms var(--ease-out),background-color 180ms ease,border-color 180ms ease;} .ds-btn:active{transform:scale(.97);} .ds-btn:focus-visible{outline:3px solid var(--focus);outline-offset:3px;} .ds-btn-ghost{color:var(--vinho);border-color:rgba(139,16,48,.45);background:rgba(139,16,48,.05);} .ds-btn-ghost:hover{border-color:var(--vinho);background:rgba(139,16,48,.1);}"
+    },
+    {
+      "name": "Outline Button in a Placa",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "The quiet action inside a reading board; border is currentColor, ink is vinho.",
+      "html": "<div class=\"ds-placa\"><a class=\"ds-btn ds-btn-outline\" href=\"#\">Ligar (86) 3303-7419</a></div>",
+      "css": ":host{--vinho:#8B1030;--vinho-escuro:#5E0B20;--noite:#3A0614;--parede:#F5E7CF;--parede-2:#F0DFC4;--parede-3:#E9D3B4;--creme:#FFF9EE;--creme-2:#F5E7CF;--creme-suave:#F3D2B8;--tinta-2:#7A2A38;--laranja:#F28A2E;--laranja-tinta:#9A400C;--ambar:#FDBA6B;--verde-aberto:#7BDB95;--filete-cor:var(--laranja-tinta);--filete:1.5px solid var(--filete-cor);--filete-interno:rgba(253,186,107,0.38);--sombra-placa:0 10px 18px -14px rgba(84,42,24,0.45);--sombra-placa-2:0 8px 14px -12px rgba(84,42,24,0.38);--f-display:\"Alfa Slab One\",Rockwell,Georgia,serif;--f-brush:\"Kaushan Script\",\"Brush Script MT\",cursive;--f-body:Nunito,system-ui,sans-serif;--ease-out:cubic-bezier(0.23,1,0.32,1);--focus:var(--vinho);} .ds-placa{background:var(--creme);color:var(--noite);border:var(--filete);border-radius:22px;padding:26px 24px;font-family:var(--f-body);box-shadow:var(--sombra-placa);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:48px;padding:.7em 1.25em;border:1.5px solid transparent;border-radius:14px;font-family:var(--f-body);font-weight:800;font-size:1rem;line-height:1.1;text-decoration:none;cursor:pointer;transition:transform 140ms var(--ease-out),background-color 180ms ease,border-color 180ms ease;} .ds-btn:active{transform:scale(.97);} .ds-btn:focus-visible{outline:3px solid var(--focus);outline-offset:3px;} .ds-btn-outline{color:var(--vinho);border-color:currentColor;background:transparent;} .ds-btn-outline:hover{background:rgba(139,16,48,.08);} @media (max-width:479px){.ds-placa{padding:26px 16px;}}"
+    },
+    {
+      "name": "Painted Price Card",
+      "kind": "card",
+      "refersTo": "price-card",
+      "description": "Today’s price card: a vinho object on the cal wall, laranja filete at 2px, ambar accents. Padding 26px 38px, 30px 46px from 860px, 24px 20px below 480px — the integer keeps its clamp at every width.",
+      "html": "<div class=\"ds-wall\"><article class=\"ds-price-card\"><span class=\"ds-hoje\">Hoje</span><h3 class=\"ds-days\">Sexta e sábado</h3><dl class=\"ds-rows\"><div class=\"ds-row\"><dt>Almoço</dt><dd><span class=\"ds-price\"><span class=\"ds-cur\">R$</span><span class=\"ds-int\">69</span><span class=\"ds-cents\">,90</span></span></dd></div><div class=\"ds-row\"><dt><i class=\"ds-now\"></i>Jantar</dt><dd><span class=\"ds-price\"><span class=\"ds-cur\">R$</span><span class=\"ds-int\">54</span><span class=\"ds-cents\">,90</span></span></dd></div></dl></article></div>",
+      "css": ":host{--vinho:#8B1030;--vinho-escuro:#5E0B20;--noite:#3A0614;--parede:#F5E7CF;--parede-2:#F0DFC4;--parede-3:#E9D3B4;--creme:#FFF9EE;--creme-2:#F5E7CF;--creme-suave:#F3D2B8;--tinta-2:#7A2A38;--laranja:#F28A2E;--laranja-tinta:#9A400C;--ambar:#FDBA6B;--verde-aberto:#7BDB95;--filete-cor:var(--laranja-tinta);--filete:1.5px solid var(--filete-cor);--filete-interno:rgba(253,186,107,0.38);--sombra-placa:0 10px 18px -14px rgba(84,42,24,0.45);--sombra-placa-2:0 8px 14px -12px rgba(84,42,24,0.38);--f-display:\"Alfa Slab One\",Rockwell,Georgia,serif;--f-brush:\"Kaushan Script\",\"Brush Script MT\",cursive;--f-body:Nunito,system-ui,sans-serif;--ease-out:cubic-bezier(0.23,1,0.32,1);--focus:var(--vinho);} .ds-wall{background:var(--parede);color:var(--noite);padding:24px;font-family:var(--f-body);} .ds-price-card{--filete-cor:var(--laranja);--focus:var(--ambar);position:relative;color:var(--creme);max-width:340px;margin-top:14px;padding:26px 38px;border:2px solid var(--filete-cor);border-radius:20px;background:#97143A;box-shadow:0 12px 20px -14px rgba(84,42,24,.55);} .ds-price-card::after{content:\"\";position:absolute;inset:5px;border-radius:15px;box-shadow:inset 0 0 0 1px var(--filete-interno);pointer-events:none;} .ds-hoje{position:absolute;top:-13px;right:52px;padding:5px 11px 4px;border-radius:999px;background:var(--laranja);color:var(--noite);font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;} .ds-days{margin:0 0 14px;font-family:var(--f-display);font-weight:400;font-size:1.15rem;text-transform:uppercase;color:var(--ambar);} .ds-rows{display:grid;grid-template-columns:1fr 1fr;margin:0;} .ds-row{padding-right:12px;} .ds-row+.ds-row{padding:0 0 0 14px;border-left:1px dashed rgba(253,186,107,.4);} .ds-row dt{display:flex;align-items:center;gap:6px;font-size:.8rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--creme-suave);margin-bottom:4px;} .ds-row dd{margin:0;} .ds-now{width:7px;height:7px;border-radius:50%;background:var(--laranja);} .ds-price{display:inline-flex;align-items:flex-start;font-family:var(--f-display);line-height:1;color:var(--creme);} .ds-cur{font-size:.95rem;color:var(--ambar);margin:.35em .2em 0 0;} .ds-int{font-size:3rem;letter-spacing:-.01em;text-shadow:.05em .05em 0 var(--noite);} .ds-cents{font-size:1.15rem;margin:.25em 0 0 .04em;padding-bottom:.1em;border-bottom:2px solid var(--ambar);} @media (max-width:479px){.ds-price-card{padding:24px 20px;} .ds-row{padding-right:8px;} .ds-row+.ds-row{padding-left:10px;}}"
+    },
+    {
+      "name": "Placa",
+      "kind": "card",
+      "refersTo": "placa",
+      "description": "The reading board: creme lighter than any wall step, laranja-tinta filete, sepia shadow. Padding 26px 24px, closing to 26px 16px below 480px.",
+      "html": "<div class=\"ds-wall\"><div class=\"ds-placa\"><h3 class=\"ds-placa-title\">Horários</h3><p class=\"ds-placa-row\"><strong>Sexta e sábado</strong> 11:30–15:30 · 18:30–23:30</p><p class=\"ds-placa-meta\">Couvert artístico à parte.</p></div></div>",
+      "css": ":host{--vinho:#8B1030;--vinho-escuro:#5E0B20;--noite:#3A0614;--parede:#F5E7CF;--parede-2:#F0DFC4;--parede-3:#E9D3B4;--creme:#FFF9EE;--creme-2:#F5E7CF;--creme-suave:#F3D2B8;--tinta-2:#7A2A38;--laranja:#F28A2E;--laranja-tinta:#9A400C;--ambar:#FDBA6B;--verde-aberto:#7BDB95;--filete-cor:var(--laranja-tinta);--filete:1.5px solid var(--filete-cor);--filete-interno:rgba(253,186,107,0.38);--sombra-placa:0 10px 18px -14px rgba(84,42,24,0.45);--sombra-placa-2:0 8px 14px -12px rgba(84,42,24,0.38);--f-display:\"Alfa Slab One\",Rockwell,Georgia,serif;--f-brush:\"Kaushan Script\",\"Brush Script MT\",cursive;--f-body:Nunito,system-ui,sans-serif;--ease-out:cubic-bezier(0.23,1,0.32,1);--focus:var(--vinho);} .ds-wall{background:var(--parede);color:var(--noite);padding:24px;font-family:var(--f-body);} .ds-placa{background:var(--creme);color:var(--noite);border:var(--filete);border-radius:22px;padding:26px 24px;font-family:var(--f-body);box-shadow:var(--sombra-placa);} .ds-placa-title{margin:0 0 14px;font-family:var(--f-display);font-weight:400;font-size:1.45rem;line-height:1;text-transform:uppercase;color:var(--vinho);} .ds-placa-row{margin:0;padding:12px 0;border-top:1px dashed rgba(139,16,48,.3);} .ds-placa-meta{margin:0;color:var(--tinta-2);font-size:.95rem;} @media (max-width:479px){.ds-placa{padding:26px 16px;}}"
+    },
+    {
+      "name": "Hoje Chip",
+      "kind": "custom",
+      "refersTo": "hoje-chip",
+      "description": "The hero’s live price marker: a small vinho object with a laranja filete, read from the price board.",
+      "html": "<div class=\"ds-wall\"><a class=\"ds-today\" href=\"#\"><span class=\"ds-tag\">Hoje</span><span class=\"ds-label\">Jantar de sábado</span><span class=\"ds-tprice\">R$ 54,90</span><svg class=\"ds-arrow\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></div>",
+      "css": ":host{--vinho:#8B1030;--vinho-escuro:#5E0B20;--noite:#3A0614;--parede:#F5E7CF;--parede-2:#F0DFC4;--parede-3:#E9D3B4;--creme:#FFF9EE;--creme-2:#F5E7CF;--creme-suave:#F3D2B8;--tinta-2:#7A2A38;--laranja:#F28A2E;--laranja-tinta:#9A400C;--ambar:#FDBA6B;--verde-aberto:#7BDB95;--filete-cor:var(--laranja-tinta);--filete:1.5px solid var(--filete-cor);--filete-interno:rgba(253,186,107,0.38);--sombra-placa:0 10px 18px -14px rgba(84,42,24,0.45);--sombra-placa-2:0 8px 14px -12px rgba(84,42,24,0.38);--f-display:\"Alfa Slab One\",Rockwell,Georgia,serif;--f-brush:\"Kaushan Script\",\"Brush Script MT\",cursive;--f-body:Nunito,system-ui,sans-serif;--ease-out:cubic-bezier(0.23,1,0.32,1);--focus:var(--vinho);} .ds-wall{background:var(--parede);color:var(--noite);padding:24px;font-family:var(--f-body);} .ds-today{--filete-cor:var(--laranja);--focus:var(--ambar);display:flex;align-items:center;gap:10px;width:fit-content;padding:10px 14px 10px 10px;border:var(--filete);border-radius:16px;background:var(--vinho);box-shadow:var(--sombra-placa-2);color:var(--creme);text-decoration:none;line-height:1.2;transition:transform 140ms var(--ease-out);} .ds-today:active{transform:scale(.97);} .ds-today:focus-visible{outline:3px solid var(--focus);outline-offset:3px;} .ds-tag{padding:5px 9px 4px;border-radius:8px;background:var(--laranja);color:var(--noite);font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;} .ds-label{font-weight:700;font-size:.95rem;color:var(--creme-suave);} .ds-tprice{color:var(--creme);font-family:var(--f-display);font-size:1.3rem;white-space:nowrap;} .ds-arrow{color:var(--ambar);transition:transform 200ms var(--ease-out);} .ds-today:hover .ds-arrow{transform:translateX(3px);}"
+    },
+    {
+      "name": "Dish Card with Selo",
+      "kind": "card",
+      "refersTo": "dish-card",
+      "description": "A vinho object on the cal wall: gradient board, laranja filete, noite letra sombreada, ambar seal.",
+      "html": "<div class=\"ds-wall\"><div class=\"ds-dish\"><span class=\"ds-seal\"><span>Mais</span><span>pedido</span></span><h3 class=\"ds-dish-name\">Picanha Suína</h3></div></div>",
+      "css": ":host{--vinho:#8B1030;--vinho-escuro:#5E0B20;--noite:#3A0614;--parede:#F5E7CF;--parede-2:#F0DFC4;--parede-3:#E9D3B4;--creme:#FFF9EE;--creme-2:#F5E7CF;--creme-suave:#F3D2B8;--tinta-2:#7A2A38;--laranja:#F28A2E;--laranja-tinta:#9A400C;--ambar:#FDBA6B;--verde-aberto:#7BDB95;--filete-cor:var(--laranja-tinta);--filete:1.5px solid var(--filete-cor);--filete-interno:rgba(253,186,107,0.38);--sombra-placa:0 10px 18px -14px rgba(84,42,24,0.45);--sombra-placa-2:0 8px 14px -12px rgba(84,42,24,0.38);--f-display:\"Alfa Slab One\",Rockwell,Georgia,serif;--f-brush:\"Kaushan Script\",\"Brush Script MT\",cursive;--f-body:Nunito,system-ui,sans-serif;--ease-out:cubic-bezier(0.23,1,0.32,1);--focus:var(--vinho);} .ds-wall{background:var(--parede);color:var(--noite);padding:24px;font-family:var(--f-body);} .ds-dish{--filete-cor:var(--laranja);--focus:var(--ambar);color:var(--creme);position:relative;display:flex;flex-direction:column;justify-content:flex-end;max-width:320px;min-height:200px;padding:20px;border:var(--filete);border-radius:20px;background:linear-gradient(160deg,var(--vinho) 0%,var(--vinho-escuro) 75%);box-shadow:0 10px 18px -13px rgba(84,42,24,.6);} .ds-seal{position:absolute;top:14px;right:14px;display:grid;place-content:center;width:80px;height:80px;border-radius:50%;background:var(--ambar);color:var(--noite);font-size:.72rem;font-weight:800;line-height:1.1;letter-spacing:.08em;text-align:center;text-transform:uppercase;transform:rotate(-12deg);box-shadow:inset 0 0 0 4px var(--ambar),inset 0 0 0 5.5px var(--vinho-escuro);} .ds-seal span{display:block;} .ds-dish-name{margin:0;font-family:var(--f-display);font-weight:400;font-size:1.9rem;line-height:1.02;text-transform:uppercase;max-width:11ch;text-shadow:.05em .05em 0 var(--noite);}"
+    },
+    {
+      "name": "Menu Chip",
+      "kind": "chip",
+      "refersTo": "chip-on-placa",
+      "description": "Static list chip recessed into a placa; its fill is the wall tone showing through.",
+      "html": "<div class=\"ds-placa\"><ul class=\"ds-chips\"><li>Fraldinha</li><li>Buffet de Saladas</li><li>Chopp</li></ul></div>",
+      "css": ":host{--vinho:#8B1030;--vinho-escuro:#5E0B20;--noite:#3A0614;--parede:#F5E7CF;--parede-2:#F0DFC4;--parede-3:#E9D3B4;--creme:#FFF9EE;--creme-2:#F5E7CF;--creme-suave:#F3D2B8;--tinta-2:#7A2A38;--laranja:#F28A2E;--laranja-tinta:#9A400C;--ambar:#FDBA6B;--verde-aberto:#7BDB95;--filete-cor:var(--laranja-tinta);--filete:1.5px solid var(--filete-cor);--filete-interno:rgba(253,186,107,0.38);--sombra-placa:0 10px 18px -14px rgba(84,42,24,0.45);--sombra-placa-2:0 8px 14px -12px rgba(84,42,24,0.38);--f-display:\"Alfa Slab One\",Rockwell,Georgia,serif;--f-brush:\"Kaushan Script\",\"Brush Script MT\",cursive;--f-body:Nunito,system-ui,sans-serif;--ease-out:cubic-bezier(0.23,1,0.32,1);--focus:var(--vinho);} .ds-placa{background:var(--creme);color:var(--noite);border:var(--filete);border-radius:22px;padding:26px 24px;font-family:var(--f-body);box-shadow:var(--sombra-placa);} .ds-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none;} .ds-chips li{padding:9px 14px 8px;border:1.5px solid rgba(139,16,48,.3);border-radius:999px;background:var(--creme-2);font-weight:700;font-size:.98rem;line-height:1.2;} @media (max-width:479px){.ds-placa{padding:26px 16px;}}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "button-primary",
+      "description": "Sticky header: the top rail in wine glass with creme ink, closed by the laranja filete carried as an inset so the rail adds no height.",
+      "html": "<header class=\"ds-header\"><span class=\"ds-logo\">ADEGA DO BOI</span><nav><a href=\"#\">Valores</a><a href=\"#\">Cardápio</a><a href=\"#\">Horários</a><a href=\"#\">Como chegar</a></nav><a class=\"ds-hcta\" href=\"#\">Reservar</a></header>",
+      "css": ":host{--vinho:#8B1030;--vinho-escuro:#5E0B20;--noite:#3A0614;--parede:#F5E7CF;--parede-2:#F0DFC4;--parede-3:#E9D3B4;--creme:#FFF9EE;--creme-2:#F5E7CF;--creme-suave:#F3D2B8;--tinta-2:#7A2A38;--laranja:#F28A2E;--laranja-tinta:#9A400C;--ambar:#FDBA6B;--verde-aberto:#7BDB95;--filete-cor:var(--laranja-tinta);--filete:1.5px solid var(--filete-cor);--filete-interno:rgba(253,186,107,0.38);--sombra-placa:0 10px 18px -14px rgba(84,42,24,0.45);--sombra-placa-2:0 8px 14px -12px rgba(84,42,24,0.38);--f-display:\"Alfa Slab One\",Rockwell,Georgia,serif;--f-brush:\"Kaushan Script\",\"Brush Script MT\",cursive;--f-body:Nunito,system-ui,sans-serif;--ease-out:cubic-bezier(0.23,1,0.32,1);--focus:var(--vinho);} .ds-header{--filete-cor:var(--laranja);--focus:var(--ambar);} .ds-header{display:flex;align-items:center;gap:28px;height:72px;padding:0 24px;background:rgba(94,11,32,.92);backdrop-filter:blur(14px) saturate(140%);box-shadow:inset 0 -1.5px 0 var(--laranja);color:var(--creme);font-family:var(--f-body);} .ds-logo{margin-right:auto;font-family:var(--f-display);font-size:1.2rem;} .ds-header nav{display:flex;gap:4px;} .ds-header nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border-radius:10px;font-weight:800;font-size:.98rem;color:inherit;text-decoration:none;transition:background-color 160ms ease;} .ds-header nav a:hover{background:rgba(255,249,238,.1);} .ds-header a:focus-visible{outline:3px solid var(--focus);outline-offset:3px;} .ds-hcta{display:inline-flex;align-items:center;min-height:44px;padding:.55em 1em;border-radius:14px;background:var(--laranja);color:var(--noite);font-weight:800;text-decoration:none;transition:transform 140ms var(--ease-out);} .ds-hcta:active{transform:scale(.97);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "O Quadro de Preços Pintado",
+    "overview": "The site is the restaurant’s hand-painted price board, in the tradition of the Northeastern sign painter (abridor de letras), hung on a limewashed wall. The wall is cal: every section ground is a step of warm cream, from parede through parede-2 to parede-3, or a short gradient between two of them. Vinho holds three jobs. It is ink (slab headings in vinho, body in noite, secondary copy in tinta-2); it is object (the price cards, the dish cards, the hero HOJE chip, the hero photo mat); and it is frame — the page hangs as a picture between two vinho rails, the status strip and header at the top and the dock and footer at the bottom. Dense reading sits on a creme placa, lighter than any wall step, raised off the cal by the filete and a short sepia shadow. The thread that ties cream, wine and limewash together is the orange filete: the same line closes a creme placa, a vinho object and the header.\n\nDensity is mobile-first and generous: one column at 390px, large slab caps, big painted numerals, 48px+ touch targets, and a fixed bottom dock. Ornament is borrowed only from the painter’s own kit: drop-shaded slab letters, a brush-script word, corner arabesques, a round stamped seal, dashed rules between rows. The board also knows what time it is. One \"now\" marker runs through the status strip, the hero HOJE chip, the price card for today and the hours row.",
+    "keyCharacteristics": [
+      "Limewashed grounds in three cream steps, hung between two vinho rails; vinho is ink, object and frame, never a section ground.",
+      "Alfa Slab One caps with a painted offset shade (letra sombreada); one Kaushan brush word per moment, unshaded, at most three moments per page.",
+      "Orange fills are reserved for the primary action and the HOJE marker. Orange as a 1.5px filete line frames every board — and changes tint with its ground.",
+      "Prices painted like a quadro: small R$, big integer, raised underlined cents.",
+      "Rounded boards (20–24px), short sepia shadows, no hard box shadows.",
+      "Ease-out motion, one authored moment (the brush word paints in), everything visible by default."
+    ],
+    "rules": [
+      {
+        "name": "The Parede de Cal Rule",
+        "section": "colors",
+        "text": "The wall is limewash, and it hangs between two rails of wine. Every section ground is a step of cream — parede, parede-2, parede-3, or a short gradient between two of them — on the landing page, the hero, the CTA and the legal page alike. Vinho never grounds a section. It has exactly three jobs: ink (slab headings, body, secondary copy), object (price cards, dish cards, the HOJE chip, the hero photo mat) and frame — the chrome. The frame is two rails: status strip plus header at the top, dock plus footer at the bottom, each closed by the laranja filete. The wall is never vinho and the chrome is never cal; a placa is the lighter creme laid over the wall, never a wall step and never chrome."
+      },
+      {
+        "name": "The Contextual Filete Rule",
+        "section": "colors",
+        "text": "The filete is one line with two tints, and it is what makes cream, wine and limewash read as one object. --filete-cor resolves to laranja-tinta at :root (the default over cal) and is redeclared locally to laranja by every wine surface: the vinho objects (hero HOJE chip, hero photo mat, price card, dish card) and the whole chrome (header, dock, footer). The reason is the border’s own legibility — it must clear 3:1 against its ground. Measured: laranja-tinta over parede 5.53:1, over parede-3 4.64:1, over a placa 6.44:1; laranja over vinho 3.82:1, over vinho-escuro 5.47:1, over noite 6.95:1, over today’s warmed card 3.41:1. In the header the filete is an inset shadow, not a border — inset 0 -1.5px 0 var(--laranja) — so the rail closes without adding to the header’s height and --header-h stays true. Never hard-code the filete colour at the point of use."
+      },
+      {
+        "name": "The One Orange Rule",
+        "section": "colors",
+        "text": "Orange fills mark exactly two things: the primary action and the HOJE marker. Only one orange action is lit at a time — while the hero Reservar is on screen, the header CTA and the dock main button drop to outlines."
+      },
+      {
+        "name": "The Orange-Is-Not-Ink Rule",
+        "section": "colors",
+        "text": "laranja is never text, on any ground: 2.04:1 on cal, 3.82:1 on vinho. Its jobs are fills, the letra sombreada shade, and the filete inside vinho. The orange that can carry text is laranja-tinta on cal and on placas; inside vinho objects the accent that reads as text is ambar."
+      },
+      {
+        "name": "The Three Brush Strokes Rule",
+        "section": "typography",
+        "text": "The brush word appears in at most three moments per page (hero \"família toda\", \"Infantil\", final CTA \"mesa\"). Always one word or short phrase inside a slab line, never a whole heading and never body text."
+      },
+      {
+        "name": "The Letra Sombreada Rule",
+        "section": "typography",
+        "text": "Slab caps carry a hard painted shade offset down-right 0.045–0.055em. The shade follows the ground: laranja for vinho letters on cal (headline, hero, CTA, legal h1), noite for creme letters inside vinho objects (price integers, dish names). The brush word takes no shade — it is tinta única. The shade is a lettering technique: slab letters and price integers only, never boxes."
+      },
+      {
+        "name": "The Painted Price Rule",
+        "section": "typography",
+        "text": "A price is always three pieces: small ambar R$, big slab integer, raised underlined cents. Use a data element with a numeric value so scripts read the price from the board itself."
+      },
+      {
+        "name": "The Hanging Board Rule",
+        "section": "elevation",
+        "text": "Box shadows are sepia rgba(84, 42, 24, …), soft, and drop straight down with a negative spread. Hard offset box shadows are not part of this world; the only hard offset is the letra sombreada on slab letters."
+      },
+      {
+        "name": "The Padding Yields Rule",
+        "section": "layout",
+        "text": "When a board will not fit, the padding gives way — never the painted numeral. The price integer holds the same clamp(2.6rem, 1.4rem + 1.9vw, 3.3rem) at every width; both narrow steps (max-width 479 and 339) are made entirely of padding, cell spacing, the gutter and one 0.88rem drop on the hours figures, with no change to the display ramp. The order of yielding is padding, then cell spacing, then the gutter, then wrapping — the type ramp is not in the list. Measured after the fix at 320, 360, 390 and 414px device widths: scrollWidth equals clientWidth exactly and nothing breaks its bounds; the price board comes out 296 / 328 / 358 / 382px wide."
+      }
+    ],
+    "dos": [
+      "Keep every section ground on the cal scale (parede, parede-2, parede-3) and put dense reading on a creme placa with a 1.5px laranja-tinta filete.",
+      "Set --filete-cor on the surface: laranja-tinta over cal, laranja on every wine surface — object or chrome — so the line always clears 3:1 against its ground.",
+      "Put noite text on every orange fill (6.95:1); use laranja-tinta for accent text on cal and ambar for accent text on any wine surface.",
+      "Light only one orange action at a time and hand it off as the hero CTA scrolls away.",
+      "Shade slab caps in laranja when the letters are vinho on cal, and in noite when they are creme on vinho.",
+      "Paint prices as small ambar R$, big slab integer, raised cents underlined in ambar.",
+      "Drive every \"now\" marker (status strip, hero HOJE chip, price card, hours row) from the same price and hours data in the HTML.",
+      "Keep the brush word to one word inside a slab line, unshaded, at most three per page.",
+      "Let padding, cell spacing and the gutter yield on narrow screens — and check a new board at 320px, where scrollWidth must still equal clientWidth.",
+      "Keep box shadows on cal sepia rgba(84, 42, 24, …) and shadows cast by the rails deep wine rgba(42, 4, 14, …), short and negative-spread, and use dashed rules between rows with 44px minimum touch targets."
+    ],
+    "donts": [
+      "Don’t ground a section in vinho, and don’t ground the chrome in cal. The wall is limewash between two wine rails; those are the only wine grounds the page has.",
+      "Don’t set laranja as text anywhere: 2.04:1 on cal, 3.82:1 on vinho.",
+      "Don’t use orange as a decorative fill. Its fills mean \"act\" or \"today\"; its line is the filete.",
+      "Don’t hard-code a filete colour at the point of use, and don’t carry laranja-tinta onto a wine surface or laranja onto cal as a border.",
+      "Don’t give a placa a cream darker than --creme; if it is not lighter than the wall it is not a board.",
+      "Don’t put grey or black shadows on a warm ground, and don’t put hard offset shadows on boxes — the only hard offset is the shade on slab letters. The header’s filete is an inset, not a shadow for depth; don’t convert it to a border and change the rail’s height.",
+      "Don’t shade the brush word; it is tinta única.",
+      "Don’t add arabesque corners beyond the price cards and the infantil board.",
+      "Don’t set a whole heading or a paragraph in Kaushan Script, and don’t put a small-caps kicker above a heading — labels name data groups only.",
+      "Don’t shrink the painted price integer to make something fit; it holds its clamp at every width, and the padding is what gives way.",
+      "Don’t hide content behind animation; reveals start from visible-by-default and fall back to opacity only."
+    ]
+  }
+}

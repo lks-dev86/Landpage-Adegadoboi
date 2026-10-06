@@ -1,0 +1,24 @@
+{
+  "logs": [],
+  "failed": [],
+  "dom": {
+    "brokenAnchors": [],
+    "overflowX": false,
+    "wide": [],
+    "smallTargets": [],
+    "lowTargets": [],
+    "status": "Fechado · abre hoje às 18:30",
+    "today": "Hoje\n            Jantar de  ábado\n            R$ 54,90",
+    "reserva": "tel:+558633037419",
+    "summary": "Almoço: todos os dias, 11:30–15:30. Jantar: todos os dias, a partir das 18:30.",
+    "fonts": [
+      "Alfa Slab One 400",
+      "Kaushan Script 400",
+      "Nunito 400",
+      "Nunito 600",
+      "Nunito 700",
+      "Nunito 800"
+    ],
+    "h": 6838
+  }
+}
