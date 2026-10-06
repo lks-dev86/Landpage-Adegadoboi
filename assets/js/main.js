@@ -469,15 +469,29 @@
       el.style.setProperty('--i', String(Math.min(i, 6)));
       porGrupo.set(el.parentElement, i + 1);
     });
-    const io = new IntersectionObserver((entries) => {
+    // Dois observadores com limiares diferentes, e a diferença importa.
+    //
+    // As placas da galeria (.reveal-clip) começam com clip-path: inset(0 0 100%),
+    // ou seja, área pintada zero. O Chrome calcula o intersectionRatio DEPOIS de
+    // aplicar o clip-path do próprio alvo, então essas placas reportam ratio 0,00
+    // mesmo ocupando a tela inteira — e um limiar de 0,12 nunca é alcançado.
+    // O clip só abriria com .is-in, que só viria se o limiar fosse alcançado:
+    // impasse circular, e a seção Ambiente ficava invisível para sempre.
+    // Com threshold 0 o callback dispara por isIntersecting, que continua true.
+    // Não eleve este limiar sem antes medir o ratio de um elemento clipado.
+    const revelar = (io) => (entries) => {
       entries.forEach((en) => {
         if (en.isIntersecting) {
           en.target.classList.add('is-in');
           io.unobserve(en.target);
         }
       });
-    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
-    alvos.forEach((el) => io.observe(el));
+    };
+    const margem = '0px 0px -8% 0px';
+    let ioFade, ioClip;
+    ioFade = new IntersectionObserver((e) => revelar(ioFade)(e), { rootMargin: margem, threshold: 0.12 });
+    ioClip = new IntersectionObserver((e) => revelar(ioClip)(e), { rootMargin: margem, threshold: 0 });
+    alvos.forEach((el) => (el.classList.contains('reveal-clip') ? ioClip : ioFade).observe(el));
   }
 
   /* ------------------------------------------------------------------
