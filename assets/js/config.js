@@ -34,6 +34,6 @@ window.SITE_CONFIG = {
   SITE_URL: 'https://www.adegadoboi.com.br',
 
   // Crédito discreto no rodapé.
-  DESENVOLVEDOR_NOME: '[NOME_DESENVOLVEDOR]',
+  DESENVOLVEDOR_NOME: 'Lukas_dev',
   DESENVOLVEDOR_URL: ''
 };
