@@ -23,6 +23,11 @@ destaque-rodizio.jpg     960 × 720     4:3         Cortes de carne no espeto
 destaque-buffet.jpg      960 × 720     4:3         Buffet de saladas e pratos quentes
 destaque-familia.jpg     960 × 720     4:3         Família reunida à mesa
 destaque-bebidas.jpg     960 × 720     4:3         Chopp e caipirissima na mesa
+prato-picanha-suina.jpg  960 × 720     4:3         Picanha suína (destaque do cardápio; o nome do
+                                                   prato é escrito por cima, no pé da foto, então
+                                                   deixe o terço de baixo mais limpo)
+prato-rodizio-de-carne.jpg 960 × 720   4:3         Rodízio de carne servido na mesa
+prato-petit-gateau.jpg   960 × 720     4:3         Petit gateau
 galeria-1.jpg            1200 × 900    4:3         Salão principal visto da entrada (aparece grande)
 galeria-2.jpg            1200 × 900    4:3         Mesa posta para família
 galeria-3.jpg            1200 × 900    4:3         Passador servindo carne na mesa
