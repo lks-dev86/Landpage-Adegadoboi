@@ -967,12 +967,15 @@ button { font: inherit; color: inherit; }
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+/* O quadro de destaque guarda a proporção 4:3 da grade: sem isso, uma foto
+   em pé estica a linha inteira e o quadro vira o dobro da altura prevista.
+   O recorte puxa para baixo do centro, onde está o salão e não o teto. */
+.gallery__item:first-child img { object-position: 50% 78%; }
 
 @media (min-width: 860px) {
   .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
   .gallery__item:last-child { grid-column: auto; }
   .gallery__item:first-child { grid-column: span 2; grid-row: span 2; }
-  .gallery__item:first-child img { aspect-ratio: auto; }
 }
 
 /* ==========================================================================
